@@ -1,0 +1,76 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    padding: auto;
+}
+#vi{
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    font-size: 100px;
+    padding: auto;
+}
+#myvideo{
+
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+      
+}
+
+h1{
+    color: whitesmoke;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+p{
+    color: whitesmoke;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+p{
+    color: whitesmoke;
+    position: absolute;
+    top: 400px;
+    left: 260px;
+}
+#prev{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 280px;
+}
+#play{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 370px;
+}
+#next{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 440px;
+}
+.prev{
+    color: whitesmoke;
+    height: 5vh;
+}

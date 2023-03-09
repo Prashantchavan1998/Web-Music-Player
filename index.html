@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <h1 id="vi"> <marquee behavior="alternate" direction="right">Welcome to music Player</marquee></h1>
+    <video autoplay muted loop id="myVideo">
+        <source src="bgvideo.mp4" type="video/mp4">
+    </video>
+    <br><br><br>
+    
+    
+    <div id="div">
+
+        <div class="current_song"></div>
+            <img src="" id="cover_photo"/>
+            <h2 id="title"></h1>
+            <p id="singer"></p>
+            <button id="prev"><i class="fas fa-backward fa-3x prev"></i></button>
+            <button id="play"><i class="fas fa-play fa-3x prev"></i></button>
+            <button id="next"><i class="fas fa-forward fa-3x prev"></i></button>
+        </div>
+        
+        <div class="songs">
+
+        </div>
+    </div>
+
+    <script src='main.js'></script>
+
+</body>
+</html>
